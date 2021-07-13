@@ -1,5 +1,4 @@
-**Planned workflow:
-**
+**Planned workflow:**
 
 **User story 1:**
 a) The user enters the API key into the top left text input field
