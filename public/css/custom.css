@@ -1,0 +1,101 @@
+#map {
+    width: 95%;
+    height: 500px;
+    background: grey;
+}
+
+#panel {
+    width: 100%;
+    height: 400px;
+}
+
+tr.selected {
+    background-color: #007bff !important;
+    color: #fff;
+    vertical-align: middle;
+    padding: 1.5em;
+}
+
+.label {
+    margin-left: 5px;
+    padding: 0px 14px 0px 0px;
+}
+
+#button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #eee;
+    border: solid #ccc 1px;
+    cursor: pointer;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+}
+
+@keyframes sp-anime {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.is-hide {
+    display: none;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+.form-inline .form-control {
+    width: 250px
+}
+
+.myAlert-top {
+    position: fixed;
+    top: 16px;
+    left: 37%;
+    width: 41%;
+}
+
+.alert {
+    display: none;
+}
+
+
+/** Style for the info bubble content */
+
+.H_ib_body {
+    background: rgb(45, 213, 201);
+    width: max-content;
+}
+
+
+/** Style for the info bubble tail */
+
+.H_ib.H_ib_top .H_ib_tail::after {
+    border-color: rgb(45, 213, 201) transparent;
+}
